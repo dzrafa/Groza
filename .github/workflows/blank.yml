@@ -39,4 +39,7 @@ jobs:
         run: date 
 
       - name: Jalankan file python
-        run: nama.py 
+        run: python nama.py
+        
+      - name: Secret Variable
+        run: echo ${{ secret.Rafa_Adzani }}
